@@ -2,8 +2,8 @@ name: Amul Stock Monitor
 
 on:
   schedule:
-    # Runs every hour at the beginning of the hour
-    - cron: '0 * * * *'
+    # Runs every 15 minutes
+    - cron: '*/15 * * * *'
   workflow_dispatch: # Allows manual triggering from the Actions tab
 
 permissions:

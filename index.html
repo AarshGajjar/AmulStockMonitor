@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amul Stock Monitor Configuration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Amul Stock Monitor Configuration</h1>
+            <p>Select the products you want to monitor from the list below. This list is generated from the
+                `stock_status.json` file in your repository.</p>
+        </header>
+
+        <main>
+            <div id="status">Loading product list...</div>
+
+            <div id="controls" class="hidden">
+                <input type="text" id="search-input" placeholder="Search products...">
+                <div class="button-group">
+                    <button id="select-all" class="secondary-btn">Select All</button>
+                    <button id="deselect-all" class="secondary-btn">Deselect All</button>
+                </div>
+            </div>
+
+            <div id="product-list"></div>
+            <button id="generate-btn" class="hidden">Generate Secret</button>
+
+            <div id="result" class="hidden">
+                <h2>Your `TARGET_PRODUCTS` Secret</h2>
+                <p>Copy the text below and paste it into the `TARGET_PRODUCTS` secret in your GitHub repository
+                    settings.</p>
+                <textarea id="output" readonly></textarea>
+                <button id="copy-btn">Copy to Clipboard</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>This page is part of the <a href="https://github.com/your-username/your-repo-name">Amul Stock Monitor</a>
+                project.</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

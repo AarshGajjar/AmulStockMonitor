@@ -1,5 +1,5 @@
 {
-  "amul high protein blueberry shake, 200 ml | pack of 8": true,
+  "amul high protein blueberry shake, 200 ml | pack of 8": false,
   "amul high protein blueberry shake, 200 ml | pack of 30": true,
   "amul kool protein milkshake | vanilla, 180 ml | pack of 8": true,
   "amul kool protein milkshake | vanilla, 180 ml | pack of 30": true,
@@ -16,7 +16,7 @@
   "amul whey protein, 32 g | pack of 60 sachets": true,
   "amul chocolate whey protein gift pack, 34 g | pack of 10 sachets": true,
   "amul chocolate whey protein, 34 g | pack of 30 sachets": false,
-  "amul chocolate whey protein, 34 g | pack of 60 sachets": true,
+  "amul chocolate whey protein, 34 g | pack of 60 sachets": false,
   "amul high protein plain lassi, 200 ml | pack of 30": false,
   "amul high protein buttermilk, 200 ml | pack of 30": false,
   "amul high protein rose lassi, 200 ml | pack of 30": false,

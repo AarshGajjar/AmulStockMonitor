@@ -4,7 +4,7 @@
   "amul kool protein milkshake | vanilla, 180 ml | pack of 8": false,
   "amul kool protein milkshake | vanilla, 180 ml | pack of 30": true,
   "amul kool protein milkshake | arabica coffee, 180 ml | pack of 8": true,
-  "amul kool protein milkshake | arabica coffee, 180 ml | pack of 30": true,
+  "amul kool protein milkshake | arabica coffee, 180 ml | pack of 30": false,
   "amul kool protein milkshake | kesar, 180 ml | pack of 8": true,
   "amul kool protein milkshake | kesar, 180 ml | pack of 30": true,
   "amul kool protein milkshake | chocolate, 180 ml | pack of 8": true,
@@ -21,5 +21,5 @@
   "amul high protein buttermilk, 200 ml | pack of 30": true,
   "amul high protein rose lassi, 200 ml | pack of 30": false,
   "amul high protein milk, 250 ml | pack of 8": true,
-  "amul high protein milk, 250 ml | pack of 32": true
+  "amul high protein milk, 250 ml | pack of 32": false
 }

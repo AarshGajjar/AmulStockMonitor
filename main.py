@@ -14,6 +14,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager
 
 # Basic logging setup
 logging.basicConfig(
@@ -98,7 +99,7 @@ class AmulAPIClient:
         
         # When run in GitHub Actions, Selenium Manager will automatically
         # download and manage the correct chromedriver.
-        driver = webdriver.Chrome(options=chrome_options)
+        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
         driver.execute_cdp_cmd("Network.enable", {})
         return driver
 
